@@ -1,3 +1,10 @@
+/*
+ * @file Inventory.h
+ * @author Shelley Wong
+ * 
+ * Inventory class keeps track of inventory items, price of those items,
+ * and whether or not those items are in stock.
+ */
 #ifndef _INVENTORY_
 #define _INVENTORY_
 #include <iostream>
