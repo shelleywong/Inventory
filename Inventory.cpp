@@ -32,7 +32,12 @@ Inventory::Inventory(string name, float price, int count)
  */
 void Inventory::sell()
 {
-  m_in_stock--;
+  if(m_in_stock == 0){
+    cout<<"Sorry, that item is out of stock\n";
+  }
+  else{
+    m_in_stock--;
+  }
 }
 
 /*
