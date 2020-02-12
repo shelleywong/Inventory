@@ -10,6 +10,7 @@
 
 using std::string;
 using std::ostream;
+using std::cout;
   
 /*
  * @brief         Inventory constructor
